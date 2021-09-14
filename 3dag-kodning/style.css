@@ -1,0 +1,81 @@
+body{
+    font-family: "Open Sans", "sans-serif";
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,white,gray)
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+.card{
+    width: 150px;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid steelblue;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px; 
+}
+
+.Card-header{
+    color: blue;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom:blue 1px solid;
+    background-color: tan;
+    padding: 5px 10px;
+}
+
+.Card-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.material-icons{
+    font-size: 36px;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.main-description{
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* id til særlige farve på lige rækker */
+
+#or-border{
+    border-color: coral;
+}
+
+#or-header{
+    background-color: silver;
+    border-color: gold;
+    color: khaki;
+}
+
+#or-color{
+    color: purple
+}
+
+#er-header{
+    background-color: lightcoral;
+    border-color: rgb(122, 206, 255);
+    color: lawngreen;
+}
+
+#er-color{
+    color: blue;
+}
